@@ -1,5 +1,5 @@
 {
-    "name": "baidu/baidu-aip-sdk",
+    "name": "baidu-sdk/aip",
     "description": "baidu aip sdk",
 	"keywords": ["baidu", "aip", "ocr"],
     "license": "MIT",
