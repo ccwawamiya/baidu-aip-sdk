@@ -41,7 +41,7 @@ class OCR
     protected $secretKey='';//SECRET_KEY
 
     public function build(){
-        $client = new AipOcr($this->appId, $this->apiKey, $this->secretKey);
+        $client = new AipOcr($this->appId, $this->apiKey, $this->secretKey);//不同的模块不同的类，具体请参考文档
         $image = file_get_contents('./wepay.jpg');
         $result=$client->basicGeneral($image);
         print_r($result);
