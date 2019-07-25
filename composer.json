@@ -1,0 +1,22 @@
+{
+    "name": "baiduaip/src",
+    "description": "baidu aip sdk",
+	"keywords": ["baidu", "aip", "ocr"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wxyhhy911",
+            "email": "wxyhhy911@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Baidu\\Aip\\": "src/"
+		}
+	},
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+      "phpunit/phpunit": "^4.0"
+    }
+  }
