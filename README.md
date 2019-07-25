@@ -1,7 +1,7 @@
 # baidu-aip-sdk  https://ai.baidu.com/sdk
 ### 在开发laravel项目时，需要用到baidu云的sdk，顺手拿过来稍微调整了下
 
-##目录
+## 目录
 ```
 AipBase.php 基类
 AipBCEUtil.php 工具类
@@ -19,14 +19,13 @@ AipNlp.php 语言处理
 AipOcr.php OCR识别
 AipSpeech.php 语音识别
 ````
-##安装
+## 安装
 ```
 composer require baidu-sdk/aip
-
 ```
 
-##用法
-###具体文档请参照 http://ai.baidu.com/docs
+## 用法
+### 具体文档请参照 http://ai.baidu.com/docs
 ```
 以OCR为例
 
